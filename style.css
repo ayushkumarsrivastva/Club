@@ -27,25 +27,26 @@ body{
 }
 #navbar ul{
     display: flex;
-    margin-right: 0;
+    
 }
 #navbar ul li{
     list-style-type: none;
     font-size: 1.5rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+margin: 0px 20px;
 }
 
 #navbar ul li a{
     display: block;
     text-decoration: none;
     color: white;
-    padding: 15px;   
-    letter-spacing: 3;
+  border-radius: 20px;
+    padding: 8px;
 }
 #navbar ul li a:hover{
     background-color: silver;
     color: black;
-    font-weight: bolder;
+    
 }
 
 #logo img{  
@@ -81,6 +82,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+border-radius: 14px;
     background: url('img/bg.jpg') no-repeat center center/cover;
     font-size: 1.4rem;
   
